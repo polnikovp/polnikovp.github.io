@@ -21,5 +21,5 @@ aData[strId].poll.forEach((e, i) => {
 document.querySelector('.apply').addEventListener('click', (e) => {
     aData[strId].results = document.querySelectorAll('input[data-fld="true"]:checked').length
     localStorage.setItem('aData', JSON.stringify(aData));
-    window.location.pathname = '/'
+    window.location.pathname = '/lectures.html'
 })

@@ -8,9 +8,60 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.main{
+.main, .navbar{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar__link{
+    padding: 10px 20px;
+    background: #ecf0f1;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 200px;
+    margin-right: 100px;
+}
+
+.material{
+    text-align: center;
+}
+
+.material__img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.material__title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .lectures{
