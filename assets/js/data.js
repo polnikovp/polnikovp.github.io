@@ -71,7 +71,7 @@ if (localStorage.getItem('aData') !== null) {
                     ]
                 }
             ],
-            results: 1
+            results: 0
         },
         {
             title: "Лекция 2. Классификация периферийных устройств. Классификация интерфейсов, основные характеристики",
@@ -141,7 +141,7 @@ if (localStorage.getItem('aData') !== null) {
                     ]
                 }
             ],
-            results: 2
+            results: 0
         }
     ]
     localStorage.setItem('aData', JSON.stringify(aData));
