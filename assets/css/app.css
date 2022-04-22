@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.lectures{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lecture{
+    flex-basis: 100%;
+    background: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.lecture__title{
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.lecture__progress-bg{
+    width: 100% ;
+    height: 20px;
+    border-radius: 10px;
+    background: #95a5a6;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.lecture__progress{
+    width: 100%;
+    height: 20px;
+    background: #2ecc71;
+}
+
+.lecture__progress-text{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #ecf0f1;
+    font-size: 14px;
+}
+
+.lecture__btn{
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    width: 300px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.lecture__btn:hover{
+    background: #fff;
+}
+
+.poll__block{
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
