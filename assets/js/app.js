@@ -7,7 +7,10 @@ aData.forEach((e,i) => {
             <div class="lecture__progress" style="width: ${(100/e.poll.length) * e.results}%"></div>
             <span class="lecture__progress-text">${e.results}/${e.poll.length}</span>
         </div>
-        <a href="lecture.html?id=${i}" class="lecture__btn">Перейти к лекции</a>
+        <div style="display:flex; justify-content: space-between">
+            <a href="assets/lectures/${i + 1}.docx" class="lecture__btn nul" download>Скачать лекцию</a>
+            <a href="poll.html?id=${i}" class="lecture__btn nul">Пройти тестирование</a>
+        </div>
     </div>
 `)
 })

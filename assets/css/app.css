@@ -64,6 +64,10 @@ body {
     align-items: center;
 }
 
+.lecture__btn.nul{
+    margin-left: 0;
+}
+
 .lectures{
     display: flex;
     justify-content: space-between;
