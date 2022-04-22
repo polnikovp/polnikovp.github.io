@@ -33,6 +33,12 @@ body {
     justify-content: space-between;
 }
 
+.portfolio__content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio__img{
     width: 400px;
     height: 400px;
