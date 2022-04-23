@@ -47,6 +47,10 @@ body {
     margin-right: 100px;
 }
 
+.portfolio__title{
+    margin-bottom: 20px;
+}
+
 .material{
     text-align: center;
 }
@@ -153,4 +157,26 @@ body {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+}
+
+.poll__title{
+    margin-bottom: 20px;
+}
+
+.portfolio__sub{
+    color: gray;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    display: none;
+    background: lightgrey;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
 }

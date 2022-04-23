@@ -19,7 +19,22 @@ aData[strId].poll.forEach((e, i) => {
 })
 
 document.querySelector('.apply').addEventListener('click', (e) => {
-    aData[strId].results = document.querySelectorAll('input[data-fld="true"]:checked').length
+    let modal = document.querySelector('.modal')
+    let prevResult = document.querySelector('.modal__result-prev')
+    let nextResult = document.querySelector('.modal__result-next')
+    let result = document.querySelectorAll('input[data-fld="true"]:checked').length
+    let time = 5
+    modal.style.display = 'block'
+    prevResult.innerHTML = `Предыдущий результат: ${aData[strId].results} из ${aData[strId].poll.length}`
+    nextResult.innerHTML = `Текущий результат: ${result} из ${aData[strId].poll.length}`
+    aData[strId].results = result
     localStorage.setItem('aData', JSON.stringify(aData));
-    window.location.pathname = '/lectures.html'
+    e.target.disabled = true
+    setInterval(() => {
+        let modalTimer = document.querySelector('.modal__timer')
+        modalTimer.innerHTML = `Вас перенаправит через ${time-=1} сек...`
+    }, 1000)
+    setInterval(() => {
+        window.location.pathname = '/lectures.html'
+    }, 1000*time)
 })
