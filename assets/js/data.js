@@ -319,64 +319,106 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 4. Блоки питания Система охлаждения",
             poll:[
                 {
-                    name: "Quote",
+                    name: "Блок питания используется для...",
                     answer: [
                         {
-                            title: "Name 1s",
-                            right: false
-                        },
-                        {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "питания всего компьютера",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "питания оперативной памяти",
+                            right: false
+                        },
+                        {
+                            title: "питания видеокарты",
+                            right: false
+                        },
+                        {
+                            title: "питания кулера",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Блок питания принимает энергию...",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "40 вт",
                             right: false
                         },
                         {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "220 вт",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "330 вт",
+                            right: false
+                        },
+                        {
+                            title: "инопланетных существ",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Где размещается блок питания ?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "Рядом с монитором",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "В холодильнике",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Под водой",
+                            right: false
+                        },
+                        {
+                            title: "В системном блоке",
+                            right: true
+                        }
+                    ]
+                },
+                {
+                    name: "После какого сигнала ПК быдет работать ?",
+                    answer: [
+                        {
+                            title: "Power_Good",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Power_Nice",
+                            right: false
+                        },
+                        {
+                            title: "Energy_Good",
+                            right: false
+                        },
+                        {
+                            title: "5v_Standby",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Какая температура оптимальна для современного процессора?",
+                    answer: [
+                        {
+                            title: "от 100 до 105",
+                            right: false
+                        },
+                        {
+                            title: "от 80 до 90",
+                            right: false
+                        },
+                        {
+                            title: "от 110 до 130",
+                            right: true
+                        },
+                        {
+                            title: "от 110 до 150",
                             right: false
                         }
                     ]
