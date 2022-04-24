@@ -52,7 +52,7 @@ if (localStorage.getItem('aData') !== null) {
                     name: "Машинные (внутримашинные) системные интерфейсы предназначены для...",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "для легкого восстания машин против людей",
                             right: false
                         },
                         {
@@ -118,64 +118,85 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 2. Программная поддержка работы периферийных устройств",
             poll: [
                 {
-                    name: "Quote",
+                    name: "Прерывание – это ...",
                     answer: [
                         {
-                            title: "Name 1s",
+                            title: "сигнал, сообщающий процессору о совершении какого-либо синхронного события",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "сигнал, который помогает на вас направить боеголовку",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "сигнал, сообщающий процессору о совершении какого-либо асинхронного события",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "сигнал, сообщающий видеокарте о том что порт HDMI свободен",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Сколько существует видов прерываний ?",
                     answer: [
                         {
-                            title: "Name 1",
-                            right: false
-                        },
-                        {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "3",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "8",
+                            right: false
+                        },
+                        {
+                            title: "2",
+                            right: false
+                        },
+                        {
+                            title: "4",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Что делает НОП ?",
                     answer: [
                         {
-                            title: "Name 1",
-                            right: false
-                        },
-                        {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "завершает обработку прерывания",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "начинает обработку прерывания",
+                            right: false
+                        },
+                        {
+                            title: "никак сюда не относиться",
+                            right: false
+                        },
+                        {
+                            title: "отвечает за перенаправления прерывания на весь ПК",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Обработчик прерываний – это...",
+                    answer: [
+                        {
+                            title: "высокоуровневый эквивалент обработчика событий",
+                            right: false
+                        },
+                        {
+                            title: "низкоуровневый эквивалент обработчика событий",
+                            right: true
+                        },
+                        {
+                            title: "среднеуровневый эквивалент обработчика событий",
+                            right: false
+                        },
+                        {
+                            title: "никак сюда не относиться",
                             right: false
                         }
                     ]
@@ -187,64 +208,106 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 3. Структура и состав персонального компьютера",
             poll: [
                 {
-                    name: "Quote",
+                    name: "Системный блок нужен для...",
                     answer: [
                         {
-                            title: "Name 1s",
+                            title: "питания ПК ",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "хранения воды",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "размещения компонентов ПК",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "не нужен вообще",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Системная шина имеет состав из скольки шин ?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "2",
                             right: false
                         },
                         {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "3",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "4",
+                            right: false
+                        },
+                        {
+                            title: "6",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Закон Мура был о...",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "разборе старых плат",
                             right: false
                         },
                         {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "удваивании транзисторов в процессоре",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "улучшении мониторов",
+                            right: false
+                        },
+                        {
+                            title: "лучшем охлаждением",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Какой форм-фактор материнской платы актуален ?",
+                    answer: [
+                        {
+                            title: "LPX ",
+                            right: false
+                        },
+                        {
+                            title: "BTX",
+                            right: false
+                        },
+                        {
+                            title: "PicoBTX",
+                            right: false
+                        },
+                        {
+                            title: "WTX",
+                            right: true
+                        }
+                    ]
+                },
+                {
+                    name: "Когда был выпущен форм-фактор материнской платы BTX был выпущен ?",
+                    answer: [
+                        {
+                            title: "2003",
+                            right: false
+                        },
+                        {
+                            title: "1999",
+                            right: true
+                        },
+                        {
+                            title: "2004",
+                            right: false
+                        },
+                        {
+                            title: "1995",
                             right: false
                         }
                     ]
