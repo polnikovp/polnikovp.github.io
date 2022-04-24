@@ -3,6 +3,7 @@ const ePoll = document.querySelector('.poll');
 ePoll.innerHTML = `<h3 class="poll__title">Тестирование по: ${aData[strId].title}</h3>`
 aData[strId].poll.forEach((e, i) => {
    let sAnswers = ''
+    e.answer = e.answer.sort(() => Math.random() - 0.5);
     e.answer.forEach((el,index) => {
         sAnswers += `
         <label>

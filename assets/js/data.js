@@ -430,64 +430,106 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 5. Назначение и классификация внешних запоминающих устройств",
             poll: [
                 {
-                    name: "Quote",
+                    name: "Как расшифровывается аббревиатура ЭВМ?",
                     answer: [
                         {
-                            title: "Name 1s",
+                            title: "Электронно Военный Механизм",
                             right: false
                         },
                         {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "Электронно Вычислительная Машина ",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Эра Временных Машин",
+                            right: false
+                        },
+                        {
+                            title: "Нет верного ответа",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "На какие основные критерии подразделяются ЗУ?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "Функциональные Возможности/Принцип организации",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "Функциональное назначение/Количество блоков",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Функциональное назначение/Принцип организации",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Многофункциональные/Дополнительные",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Какой уровень памяти перед оперативной памяти?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "Дополнительная память",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "Регистровые ЗУ",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Жесткий диск",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Служебные ЗУ",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Функциональные возможности ЗУ делятся на...",
+                    answer: [
+                        {
+                            title: "На простые",
+                            right: false
+                        },
+                        {
+                            title: "На многофункциональные",
+                            right: false
+                        },
+                        {
+                            title: "Оба варианта верны ",
+                            right: true
+                        },
+                        {
+                            title: "Оба вариант неверны",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Как переводится capacitor storage?",
+                    answer: [
+                        {
+                            title: "Ёмкостная память ",
+                            right: true
+                        },
+                        {
+                            title: "Магнитооптическая память",
+                            right: false
+                        },
+                        {
+                            title: "Полупроводниковая память ",
+                            right: false
+                        },
+                        {
+                            title: "Оптическая память",
                             right: false
                         }
                     ]
@@ -499,64 +541,106 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 6. Накопители на жестких магнитных дисках НЖМД принцип работы",
             poll: [
                 {
-                    name: "Quote",
+                    name: "Время произвольного доступа",
                     answer: [
                         {
-                            title: "Name 1s",
+                            title: "3-18мл",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "5-9мл",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "2,5-16мл ",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "1-15мл",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Что не входит в состав жесткого диска?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "Блок перемычек",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "Коромысло",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Головка",
+                            right: false
+                        },
+                        {
+                            title: "Разъем HDMI ",
+                            right: true
+                        }
+                    ]
+                },
+                {
+                    name: "Какое количество секторов имеют дорожки одной зоны?",
+                    answer: [
+                        {
+                            title: "Разные",
+                            right: false
+                        },
+                        {
+                            title: "Одинаковые",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Оба варианта верны",
+                            right: false
+                        },
+                        {
+                            title: "Нет верного ответа",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Какой традиционный размер сектора имеет жесткий диск?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "1024 байт",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "2048 байт",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "512 байт",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "256 байт",
+                            right: false
+                        }
+                    ]
+                },
+                {
+                    name: "Метод перпендикулярной записи ?",
+                    answer: [
+                        {
+                            title: "Это технология, при которой биты информации сохраняются в вертикальных доменах",
+                            right: true
+                        },
+                        {
+                            title: "Является основным накопителем данных в большинстве компьютеров",
+                            right: false
+                        },
+                        {
+                            title: "Количество оборотов шпинделя в минуту",
+                            right: false
+                        },
+                        {
+                            title: "важный фактор для мобильных устройств",
                             right: false
                         }
                     ]
@@ -568,64 +652,85 @@ if (localStorage.getItem('aData') !== null) {
             title: "Лекция 7. Логическая структура жесткого диска Форматирование магнитных",
             poll: [
                 {
-                    name: "Quote",
+                    name: "Количество секторов на дорожке жесткого диска зависит от...",
                     answer: [
                         {
-                            title: "Name 1s",
+                            title: "Интерфейса",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "Накопителя",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Контроллера",
+                            right: false
+                        },
+                        {
+                            title: "Все варианты верны",
+                            right: true
+                        }
+                    ]
+                },
+                {
+                    name: "Serial ATA (SATA) – это...",
+                    answer: [
+                        {
+                            title: "интерфейс, который был специально разработан для домашних систем, он поддерживает не более 4-х устройств",
+                            right: false
+                        },
+                        {
+                            title: "интерфейс, который появился относительно недавно и сейчас пропагандируется как замена PATA",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "интерфейс, который изначально проектировался для работы с большими объемами данных (7-15 устройств)",
+                            right: false
+                        },
+                        {
+                            title: "интерфейс подключения внешних устройств, поддерживается режим «горячей замены» пропускная способность интерфейса до 80 Мб/сек",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "В каком режиме может происходить восстановление файлов и каталогов?",
                     answer: [
                         {
-                            title: "Name 1",
+                            title: "В автоматическом",
                             right: false
                         },
                         {
-                            title: "Name 2",
+                            title: "В ручном режиме",
                             right: false
                         },
                         {
-                            title: "Name 3",
+                            title: "Оба варианта верны ",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "Оба варианта неверны",
                             right: false
                         }
                     ]
                 },
                 {
-                    name: "Quote",
+                    name: "Программа Speed Disk выполняет…",
                     answer: [
                         {
-                            title: "Name 1",
-                            right: false
-                        },
-                        {
-                            title: "Name 2",
-                            right: false
-                        },
-                        {
-                            title: "Name 3",
+                            title: "дефрагментацию диска",
                             right: true
                         },
                         {
-                            title: "Name 4",
+                            title: "очистку временных файлов",
+                            right: false
+                        },
+                        {
+                            title: "очистку корзины",
+                            right: false
+                        },
+                        {
+                            title: "нету верного варианта",
                             right: false
                         }
                     ]
